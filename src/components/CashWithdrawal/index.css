@@ -1,0 +1,82 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  background-color: #150b3e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  max-height: 90vh;
+  max-width: 50vw;
+  padding: 80px;
+}
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+}
+.profile-icon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-weight: bold;
+  border-radius: 150px;
+  padding: 15px;
+  margin-right: 20px;
+  min-height: 8vh;
+  min-width: 5vw;
+  text-align: center;
+}
+.profile-name {
+  color: #d4d2db;
+  font-weight: bold;
+  margin: 20px;
+  margin-top: 30px;
+}
+.your-balance-conatainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.your-balace-text {
+  color: #585076;
+  font-weight: bold;
+  font-size: 28px;
+}
+.balace {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+}
+.in-rupess {
+  color: #382f5a;
+  align-self: flex-end;
+  margin-top: 0px;
+  font-weight: bold;
+}
+.withdraw-text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+.choose-sum {
+  font-weight: bold;
+  color: #585076;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+}
